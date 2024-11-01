@@ -17,7 +17,7 @@ export default function ContactPage() {
           </div>
           <div>
             <label htmlFor="message" className="block text-gray-700">Message</label>
-            <textarea id="message" className="w-full mt-1 p-2 border border-gray-300 rounded" rows="4"></textarea>
+            <textarea id="message" className="w-full mt-1 p-2 border border-gray-300 rounded" rows={4}></textarea>
           </div>
           <button type="submit" className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-800">
             Send Message
