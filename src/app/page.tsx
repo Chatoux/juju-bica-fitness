@@ -7,7 +7,7 @@ export default function HomePage() {
       <Header />
       <div className="relative h-[80vh]">
         <Image 
-          src="/hero-gym.jpg"
+          src="/hero-gym.png"
           alt="A modern gym interior with people working out"
           layout="fill"
           objectFit="cover"
